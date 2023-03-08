@@ -4,12 +4,92 @@
     max-width:960px;
     margin:40px auto;
   }
+
+  .img-right{
+    float: right;
+    border: 1px solid #c0c0c0;
+    padding: 2px;
+    margin: 10px 0 10px 20px;
+  }
+
+  .img-left{
+    float: left;
+    border: 1px solid #c0c0c0;
+    padding: 2px;
+    margin: 10px 20px 10px 0;
+  }
+
+  .img-center{
+    display:block;
+    border: 1px solid #c0c0c0;
+    padding: 2px;
+    margin:20px auto; 
+  }
   
   /* --------------- Responsive Images ----------- */
   img{
     max-width:100%;
   }
+
+  /*----------------- Tables ------------ */
+  table{
+    width:100%;
+    border:1px solid #17202A;
+    border-collapse:collapse;/*collapses the extra borders */
   
+  }
+  table caption{
+    font-weight: bold;
+    margin:10px;
+  }
+  table tr:nth-child(even){
+    background-color: rgba(93, 109, 126, 0.1);
+  }
+  table tr:hover{
+    background-color: rgba(93, 109, 126, 0.2);
+  }
+
+
+
+  table th{
+    background-color: #5D6D7E;
+    padding:10px;
+  }
+  table td{
+    border:1px solid #17202A;
+    padding: 5px;
+    text-align: right;
+  }
+
+  td:first-of-type/*we could also use td:nth-child(1)*/{
+    text-align: left;
+  }
+    /*----------------- Lists ------------ */
+
+  ol{
+    list-style-type: upper-roman;
+  }
+
+  ul ul{
+    list-style-type: square;
+    color: #5D6D7E;
+  }
+
+  dl{}
+  dt{
+    font-weight: bold;
+  }
+  dd{
+    margin:0;
+  }
+  dd + dt{
+    margin-top: 20px;
+    color: red;
+  }
+  
+
+
+
   /*-----------------Global Styles------------ */
   body{
      font-family: 'Source Code Pro', monospace;
@@ -98,6 +178,8 @@
     justify-content: space-between;
     flex-direction: row;
     gap:20px; /*Flex Item*/
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 2rem;
   }
   
   #content article.post {
@@ -136,6 +218,15 @@
   article.post a:hover{
     text-decoration:none;
   }
+
+
+#practice h2{
+  color:#AA8FD9;
+  border-bottom: 2.5px solid #c0c0c0;
+}
+
+
+
   
   aside[role = "complementary"]{
     background-color:#5D6D7E;
