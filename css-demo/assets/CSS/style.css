@@ -5,21 +5,21 @@
     margin:40px auto;
   }
 
-  .img-right{
+.img-right{
     float: right;
     border: 1px solid #c0c0c0;
     padding: 2px;
     margin: 10px 0 10px 20px;
   }
 
-  .img-left{
+.img-left{
     float: left;
     border: 1px solid #c0c0c0;
     padding: 2px;
     margin: 10px 20px 10px 0;
   }
 
-  .img-center{
+.img-center{
     display:block;
     border: 1px solid #c0c0c0;
     padding: 2px;
@@ -225,6 +225,24 @@
   border-bottom: 2.5px solid #c0c0c0;
 }
 
+#practice blockquote{
+  border: 2px solid #17202A;
+  margin: 30px 70px;
+  padding: 30px;
+  border-radius: 20px 0;
+  background-color: #5D6D7E;
+  color: black;
+  line-height: 1.8;
+}
+
+
+#practice blockquote cite{
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+}
 
 
   
@@ -247,7 +265,8 @@
   }
   
   /*----------------- Media Queries--------------*/
-  @media screen and (max-width:600px){  
+  @media screen and (
+    max-width:600px){  
     header.primary nav ul{
     flex-direction:column;
       max-width:250px;
