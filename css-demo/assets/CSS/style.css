@@ -298,7 +298,7 @@ aside .widget footer{
 
 /*----------------- Media Queries--------------*/
 @media screen and (
-  max-width:600px){  
+  max-width:600px){ 
   header.primary nav ul{
   flex-direction:column;
     max-width:250px;
