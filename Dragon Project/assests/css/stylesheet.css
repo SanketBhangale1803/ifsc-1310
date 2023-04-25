@@ -70,7 +70,7 @@ td {
 
 
 /*-----------------------contact.html-------------------------*/
-/* .container .widget ul li a{
+.container .widget ul li a{
   color:white;
   font-family: 'Source Code Pro', monospace;
   font-style: italic;
@@ -80,6 +80,19 @@ td {
 .container .widget ul li{
   padding-bottom: 10px;
   
+}
+
+/* .aboutus{
+  color:#fff;
+  text-align: center;
+}
+.aboutus p{
+  width:40vw;
+  font-family: "Space Code Pro", monospace;
+  font-style: italic;
+  font-size: 0.9rem;
+  text-align: end;
+  color:#fff;
 } */
 
 /*-----------------------dragon.html-------------------------*/
@@ -105,15 +118,13 @@ td {
   padding-bottom: 20px;
 }
 
-#parachutesys p{
+/* #parachutesys p{
   text-align: center;
   font-family: 'Bruno Ace SC', cursive;
   font-size: 2.4rem;
   font-style: italic;
-}
-/* #parachutesys iframe{
-  margin-left: 40px;
 } */
+
 /*-------------------------faqs.html-------------------------*/
 #content{
   padding:4em 0;
@@ -434,6 +445,7 @@ aside .widget{
     display: block;
   }
   #home{
+    font-size: 2.4rem;
     margin-top: 340px;
   }
   section#articles .container {
@@ -449,24 +461,10 @@ aside .widget{
     width: 100%;
     margin-bottom: 2em;
   }
-
-  aside[role="complementary"] .container .widget{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    gap:10px;
-    font-size:0.8rem;
+  
+  .container .widget, .container .widgetoverview /*.aboutus , .aboutus p*/{
+    font-size:0.6rem;
   }
-  aside[role="complementary"] .container .widgetoverview{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    gap:10px;
-    flex-wrap: wrap;
-    font-size: 0.8rem;
-  }
-
   .recentmissions{
     font-size: 0.8rem;
   }
@@ -476,4 +474,12 @@ aside .widget{
     flex-wrap: wrap;
     padding-right: 4em;
   }
+  /* #parachutesys p{
+    font-size: 1.5rem;
+  }
+  #parachutesys iframe{
+    width:400px;
+    height:auto;
+  } */
+
 }
