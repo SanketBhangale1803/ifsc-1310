@@ -88,10 +88,15 @@ a:hover {
 #pro-en{
   text-align: left;
 }
-.pro-en p , .pro-en ul li,h2{
+.pro-en p , .pro-en ul li,h2, .review{
   color:#fff;
 }
-
+#review{
+  text-align: left;
+}
+#review p q{
+  text-decoration: underline;
+}
 /* #pro-en h3{
   border-bottom: 1px solid #c0c0c0;
 } */
